@@ -1,6 +1,6 @@
 FROM inutano/wget:latest AS downloader
 
-RUN wget https://raw.githubusercontent.com/winewei/tools/master/apache-maven-3.6.0.tar.gz --no-check-certificate
+RUN wget -q https://raw.githubusercontent.com/winewei/tools/master/apache-maven-3.6.0.tar.gz --no-check-certificate
 RUN tar xf apache-maven-3.6.0.tar.gz
 
 
