@@ -10,7 +10,7 @@ install:
 before_script:
   - env | sort
   - cd "${VERSION}"
-  - slash='/'; image="${DOCKER_REPO}:${VERSION}"
+  - image="${DOCKER_REPO}:${VERSION}"
 
 script:
   - |
